@@ -14,7 +14,7 @@ html {
     font-size: 62.5%;
     box-sizing:  border-box;
 }
-*, *::before, *::after {
+*, *:before, *:after {
    box-sizing: inherit;
 
 }
@@ -37,7 +37,7 @@ a{
 }
 
 img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .contenedor {
@@ -69,6 +69,7 @@ h3 {
 
 }
 .header__logo {
+    width: 85%;
     margin: 3rem 0;
 }
 /** Footer **/
@@ -125,9 +126,7 @@ h3 {
 /** Productos **/
 .producto {
     background-color: var(--primarioOscuro);
-    padding: 0.1px;
-    
-    
+    padding: 2rem;
 }
 .producto__imagen {
 
@@ -142,5 +141,7 @@ h3 {
 
 }
 .producto__precio {
+
+}
 
 }
